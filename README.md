@@ -2,10 +2,22 @@
 
 > **This is NOT an official Anthropic repository.**
 
-This repository contains the extracted TypeScript source code of [Anthropic's Claude Code](https://www.anthropic.com/) CLI tool. The source was obtained by unpacking the source map (`cli.js.map`) bundled with the officially published npm package.
+This repository contains the extracted TypeScript source code of [Anthropic's Claude Code](https://www.anthropic.com/) CLI tool — Anthropic's official CLI that lets you interact with Claude directly from the terminal to perform software engineering tasks like editing files, running commands, searching codebases, managing git workflows, and more.
+
+The source was obtained by unpacking the source map (`cli.js.map`) bundled with the officially published npm package.
 
 - **npm package:** [@anthropic-ai/claude-code v2.1.88](https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.88)
 - **Official homepage:** [github.com/anthropics/claude-code](https://github.com/anthropics/claude-code)
+
+## How It Leaked
+
+The source code leak was discovered by [Chaofan Shou (@Fried_rice)](https://x.com/Fried_rice) and posted publicly on March 31, 2026:
+
+> *"Claude code source code has been leaked via a map file in their npm registry!"*
+>
+> — [@Fried_rice](https://x.com/Fried_rice), March 31, 2026
+
+The published npm package (`@anthropic-ai/claude-code`) included a source map file (`cli.js.map`) containing the full, unobfuscated TypeScript source code. The `sourcesContent` field of the source map held every original `.ts`/`.tsx` file that was bundled into `cli.js`, making the entire codebase trivially extractable.
 
 ## Why does this exist?
 

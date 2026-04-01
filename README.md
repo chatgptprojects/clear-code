@@ -14,6 +14,8 @@
 
 The AI coding assistant space is evolving at breakneck speed. New tools launch every week, existing tools ship major updates constantly, and it's nearly impossible to keep up. **Clear-Code** exists to cut through the noise, give you honest comparisons, and help you pick the tools that actually make you more productive.
 
+> **Last updated:** April 2026. If you notice outdated information, please open an issue or PR!
+
 [Join our Discord](https://discord.com/invite/DsRcA3GwPy) | [Follow @paidev on X](https://x.com/paidev) | [Read the Post](https://x.com/paidev/status/2039014896650858586?s=20)
 
 </div>
@@ -251,7 +253,7 @@ Beyond the tools listed above, there's a growing ecosystem of open-source projec
 | **OpenCode** | Assistant | Terminal (TUI) | Yes | Yes | Yes | Go | MIT |
 | **OpenHands** | Platform | Web UI + CLI | Yes | Yes | Yes | Python | MIT |
 | **Aider** | Assistant | Terminal (CLI) | N/A | No | Yes | Python | Apache 2.0 |
-| **Continue** | Assistant | VS Code / JetBrains | Yes | No | Yes | TypeScript | Apache 2.0 |
+| **Continue** | Assistant | VS Code / JetBrains | Yes | Yes | Yes | TypeScript | Apache 2.0 |
 | **Tabby** | Completion | VS Code / JetBrains / Vim | Yes | No | Yes | Rust | Apache 2.0 |
 | **Void** | Editor | Standalone (VS Code fork) | Yes | No | Yes | TypeScript | Apache 2.0 |
 | **Goose** | Agent | Terminal (CLI) | N/A | Yes | Yes | Rust | Apache 2.0 |

@@ -45,6 +45,7 @@ The AI coding assistant space is evolving at breakneck speed. New tools launch e
 - [How to Choose the Right Tool](#how-to-choose-the-right-tool)
 - [The Rise of Agentic Coding](#the-rise-of-agentic-coding)
 - [Self-Hosting vs Cloud](#self-hosting-vs-cloud)
+- [Claude Code Skills Package](#claude-code-skills-package)
 - [Community & Contributing](#community--contributing)
 - [Resources & Further Reading](#resources--further-reading)
 - [Star History](#star-history)
@@ -339,6 +340,14 @@ One of the biggest advantages of open-source AI coding tools is the ability to s
 2. **Models:** Qwen 2.5 Coder, DeepSeek Coder V3, Codestral, or StarCoder2 for code-specific tasks
 3. **Code assistant:** Any of the tools listed above configured to use your local inference server
 4. **Hardware:** NVIDIA RTX 4090 or better for the best experience, Apple Silicon M-series for portable development
+
+---
+
+## Claude Code Skills Package
+
+This repo includes a **Claude Code skill** in the [`claude-code-skills/`](./claude-code-skills/) directory. It's a comprehensive style guide that teaches Claude how to work with the Claude Code codebase - covering TypeScript patterns, tool architecture, testing conventions, and more.
+
+If you contribute to Claude Code itself, install this skill to ensure your AI-assisted changes match the existing codebase style. See the [skills README](./claude-code-skills/README.md) for installation instructions.
 
 ---
 
